@@ -1,0 +1,22 @@
+body{
+    width: 100vw;height: 100vh;
+    background-color: white;
+    display: flex;flex-direction: column;
+    flex-wrap: wrap;justify-content: center;
+    align-items: center;
+}
+*{
+
+}
+#div{
+    width: 100px;height: 100px;
+    background-color: black;
+    color: white;
+    font-size:18px;text-align: center;
+    align-content: center;
+    margin: 20px;
+    border-radius: 50px;
+}
+#input{
+    width: 200px;ra
+}

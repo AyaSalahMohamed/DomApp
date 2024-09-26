@@ -1,0 +1,37 @@
+body{
+    width: 100vw;height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: wrap;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+button{
+    width: 120px;height: 35px;
+    font-size: 20px;
+    background-color: pink;
+    transition: all 0.3s;
+    border: none;
+    margin: 100px;
+
+}
+button:active{
+    box-shadow: 0px 2px 12px 1px black;
+}
+button:hover{
+
+    transform: scale(.8);
+}
+h1{
+    width: 75%; height: 80px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    text-align:center;
+    padding: 25px;
+}
+
